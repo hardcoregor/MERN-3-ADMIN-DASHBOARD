@@ -1,7 +1,4 @@
 import {
-  SettingsOutlined,
-  ChevronLeft,
-  ChevronRightOutlined,
   HomeOutlined,
   ShoppingCartOutlined,
   Groups2Outlined,
@@ -29,7 +26,7 @@ const navItems = [
     icon: <ShoppingCartOutlined />
   },
   {
-    text: "Custumers",
+    text: "Customers",
     icon: <Groups2Outlined />
   },
   {

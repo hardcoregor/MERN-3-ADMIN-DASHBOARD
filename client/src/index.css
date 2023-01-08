@@ -8,3 +8,11 @@ bpdy,
   width: 100%;
   font-family: "Inter", sans-serif;
 }
+
+.react-datepicker__input-container input {
+  border-radius: 20px;
+  text-align: center;
+  padding: 4px 0;
+  background-color: none;
+  border: 0;
+}
