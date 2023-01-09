@@ -24,8 +24,6 @@ const BreakdownChart = ({ isDashboard = false }) => {
     })
   );
 
-  console.log(formattedData)
-
   return (
     <Box
       height={isDashboard ? "400px" : "100%"}
@@ -133,7 +131,7 @@ const BreakdownChart = ({ isDashboard = false }) => {
       top="50%"
       left="50%"
       color={theme.palette.secondary[400]}
-      textAling="center"
+      textAlign="center"
       pointerEvents="none"
       sx={{
         transform: isDashboard ? 

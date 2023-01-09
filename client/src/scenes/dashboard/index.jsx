@@ -14,7 +14,6 @@ const Dashboard = () => {
   const { data, isLoading } = useGetDashboardQuery();
   const isNonMediumScreens = useMediaQuery("(min-width: 1200px)");
 
-  console.log(data)
 
   const columns = [
     {
