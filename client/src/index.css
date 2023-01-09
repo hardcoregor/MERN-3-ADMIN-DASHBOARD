@@ -9,10 +9,30 @@ bpdy,
   font-family: "Inter", sans-serif;
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #7a7f9d;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #21295c;
+}
+
+::-webkit-scrollbar-track:hover {
+  background: #21295c;
+}
+
 .react-datepicker__input-container input {
   border-radius: 20px;
   text-align: center;
   padding: 4px 0;
   background-color: none;
   border: 0;
+}
+
+.MuiBox-root .css-i9gxme{ 
+  width: 10%;
 }
